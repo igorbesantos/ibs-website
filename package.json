@@ -1,0 +1,26 @@
+{
+  "name": "ibs-website",
+  "version": "0.1.0",
+  "description": "Igor Santos's website.",
+  "main": "pages/index.js",
+  "scripts": {
+    "dev": "next dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igorbesantos/ibs-website.git"
+  },
+  "author": "Igor Santos",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/igorbesantos/ibs-website/issues"
+  },
+  "homepage": "https://github.com/igorbesantos/ibs-website#readme",
+  "dependencies": {
+    "clsx": "^2.0.0",
+    "next": "^13.4.12",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
