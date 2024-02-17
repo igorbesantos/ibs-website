@@ -2,7 +2,6 @@
   "name": "ibs-website",
   "version": "0.1.0",
   "description": "Igor Santos's website.",
-  "main": "pages/index.js",
   "scripts": {
     "dev": "next dev",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,8 +18,14 @@
   "homepage": "https://github.com/igorbesantos/ibs-website#readme",
   "dependencies": {
     "clsx": "^2.0.0",
-    "next": "^13.4.12",
+    "next": "14.1.1-canary.45",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "sass": "^1.71.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.19",
+    "@types/react": "^18.2.55",
+    "typescript": "5.3.3"
   }
 }
